@@ -1,0 +1,29 @@
+1.Operating Systems
+
+2.Virtual Machine
+
+3.Hypervisor
+
+4.False
+
+5.VirtualCrate
+
+6.Bare metal
+
+7.Host
+
+8.Guest
+
+9.Thin provisioning
+
+10.Snapshots
+
+11.True
+
+12.Fail over
+
+13.Load balancing
+
+14.Virtual SAN
+
+15.V12N
