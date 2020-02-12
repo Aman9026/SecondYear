@@ -7,8 +7,8 @@ This repository contains the work I've done in my second year of Bachelor's of T
 
 
 The repo contains study materials for following subjects:
-* [Automata](https://github.com/Aman9026/SecondYear/tree/master/Automata)
-* [Basic Electronics Engineering](https://github.com/Aman9026/FirstYear/tree/master/BEE)
+* [Formal language and Automata Theory](https://github.com/Aman9026/SecondYear/tree/master/Automata)
+* [Business Process Management](https://github.com/Aman9026/SecondYear/tree/master/Business_Process_Management)
 * [Big Data Overview](https://github.com/Aman9026/FirstYear/tree/master/Big_Data_Overview)
 * [Chemistry](https://github.com/Aman9026/FirstYear/tree/master/Chemistry)
 * [DataBase Management System](https://github.com/Aman9026/FirstYear/tree/master/DBMS)
