@@ -7,7 +7,7 @@ This repository contains the work I've done in my second year of Bachelor's of T
 
 
 The repo contains study materials for following subjects:
-* [Formal language and Automata Theory](https://github.com/Aman9026/SecondYear/tree/master/Automata)
+
 * [Business Process Management](https://github.com/Aman9026/SecondYear/tree/master/Business_Process_Management)
 * [CSA](https://github.com/Aman9026/SecondYear/tree/master/CSA)
 * [Design and Analysis of Algorithm](https://github.com/Aman9026/SecondYear/tree/master/DAA)
@@ -15,6 +15,7 @@ The repo contains study materials for following subjects:
 * [Information Security Fundamentals](https://github.com/Aman9026/SecondYear/tree/master/Information_Security_Fundamentals)
 * [Introduction of Cloud Computing Virtualization](https://github.com/Aman9026/SecondYear/tree/master/Introduction_of_Cloud_Computing___Virtualization)
 * [Environmental Studies](https://github.com/Aman9026/FirstYear/tree/master/Environmental_Studies)
+* [Formal language and Automata Theory](https://github.com/Aman9026/SecondYear/tree/master/Automata)
 * [Functional Thinking](https://github.com/Aman9026/FirstYear/tree/master/Functional_Thinking)
 * [IT Applications and Open Standards](https://github.com/Aman9026/FirstYear/tree/master/IT_Applications___Open_Standards)
 * [IT Infrastructure Overview](https://github.com/Aman9026/FirstYear/tree/master/IT_Infrastructure_Landscape_Overview)
