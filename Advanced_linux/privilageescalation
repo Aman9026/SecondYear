@@ -1,0 +1,33 @@
+t is best practice to never use the root account by default
+
+In some distributions, trying to login as root remotely will add your system to hosts.deny
+
+If multiple users login as root, it’s hard to tell what they’ve done to a system
+
+If commands need elevated access in order to run use sudo
+
+sudo takes a command as an argument and executes it as root
+
+It looks at the sudoers configuration file and determines who is authorized to do what
+
+If a user is allowed to execute a certain command, their normal password is required
+
+There is a timeout that can be configured to allow additional commands to be executed without entering a password again
+
+The timeout ensures that if a user steps away from the system, the user will not have elevated privileges for long
+
+sudo keeps a log of:
+
+1)Each command that was run while using sudo
+2)Who ran the command
+3)The directory in which the sudo command was run from
+4)Timestamp of command executed
+
+The sudoers file, located at /etc/sudoers is designed so that it can be used for multiple hosts:
+
+1)Permission specifications
+2)The user to whom the permissions apply
+3)The hosts where the commands can be run
+4)The commands the user can run
+
+Sudo gives users a way to keep privileged commands inaccessible to users who don't need access. This is one small part of least privilge within Linux.
