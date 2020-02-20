@@ -8,6 +8,8 @@ This repository contains the work I've done in my second year of Bachelor's of T
 
 The repo contains study materials for following subjects:
 
+* [Advanced Linux](https://github.com/Aman9026/SecondYear/tree/master/Advanced_linux)
+* [Build and Release Management](https://github.com/Aman9026/SecondYear/tree/master/Build_and_Release_management)
 * [Business Process Management](https://github.com/Aman9026/SecondYear/tree/master/Business_Process_Management)
 * [CSA](https://github.com/Aman9026/SecondYear/tree/master/CSA)
 * [Design and Analysis of Algorithm](https://github.com/Aman9026/SecondYear/tree/master/DAA)
