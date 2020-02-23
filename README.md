@@ -24,6 +24,7 @@ The repo contains study materials for following subjects:
 * [Java](https://github.com/Aman9026/SecondYear/tree/master/Java)
 * [OSS Development Methodoloy](https://github.com/Aman9026/SecondYear/tree/master/OSS_Development_Methodoloy)
 * [OpenElective/Sales Marketing](https://github.com/Aman9026/SecondYear/tree/master/OpenElective/Sales___Marketing)
+* [OpenElective/Human Rights and Responsibilities](https://github.com/Aman9026/SecondYear/tree/master/OpenElective/Human_Rights_and_Responsibilities)
 * [Operating Systems](https://github.com/Aman9026/SecondYear/tree/master/Operating_Systems)
 * [PHP](https://github.com/Aman9026/SecondYear/tree/master/PHP)
 * [STF](https://github.com/Aman9026/SecondYear/tree/master/STF)
