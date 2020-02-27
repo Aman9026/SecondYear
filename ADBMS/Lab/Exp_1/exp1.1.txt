@@ -1,0 +1,40 @@
+Experiment- 1.1
+
+create table CCVT145_COURSE(
+cid varchar2(10) PRIMARY KEY CHECK(cid=upper(cid)),
+cname varchar2(15) CHECK(cname=initcap(cname)) NOT NULL,
+dur number(1) NOT NULL,
+inst varchar2(20) NOT NULL);
+
+create table CCVT145_STUD(
+sid varchar2(10) PRIMARY KEY,
+fname varchar2(20) CHECK(fname=upper(fname)) NOT NULL,
+lname varchar2(20) CHECK(lname=upper(lname)) NOT NULL,
+address varchar2(20),
+contact number(10) UNIQUE,
+cid varchar2(10) references CCVT145_COURSE);
+
+insert into CCVT145_COURSE values('&a','&b',&c,'&d');
+
+
+
+Experiment - 1.2
+
+create table CCVT_DEPT145(
+did varchar2(3) PRIMARY KEY CHECK(did LIKE 'D%'),
+dname varchar2(30) CHECK(dname=initcap(dname)) NOT NULL,
+dloc varchar2(15) NOT NULL,
+dbudget number(10) CHECK(dbudget BETWEEN 5000000000 AND 1000000));
+
+create table CCVT_EMP145(
+eid varchar2(5) PRIMARY KEY CHECK(eid LIKE 'E%'),
+fname varchar2(10) CHECK(fname=upper(fname)) NOT NULL,
+lname varchar2(10) CHECK(lname=upper(lname)) NOT NULL,
+dob date,
+salary number(10) CHECK(salary>=2000),
+did varchar2(3) references CCVT_DEPT145);
+
+alter table CCVT_EMP145 MODIFY lname varchar2(10);
+
+
+

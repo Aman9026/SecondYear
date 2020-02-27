@@ -1,0 +1,36 @@
+create table CCVT_DEPT145(
+did varchar2(3) PRIMARY KEY CHECK(did LIKE 'D%'),
+dname varchar2(30) CHECK(dname=initcap(dname)) NOT NULL,
+dloc varchar2(15) NOT NULL,
+dbudget number(10) CHECK(dbudget BETWEEN 5000000000 AND 1000000));
+
+create table CCVT_EMP145(
+eid varchar2(5) PRIMARY KEY CHECK(eid LIKE 'E%'),
+fname varchar2(10) CHECK(fname=upper(fname)) NOT NULL,
+lname varchar2(10) CHECK(lname=upper(lname)) NOT NULL,
+dob date,
+salary number(10) CHECK(salary>=2000),
+did varchar2(3) references CCVT_DEPT145);
+
+
+3.1. CREATE SEQUENCE EMPID_SEQ
+start with 100
+increment by 1
+minvalue 99
+cycle;
+
+3.2. select EMPID_SEQ.NEXTVAL from DUAL;
+     select EMPID_SEQ.CURRVAL from DUAL;
+
+3.3 ALTER SEQUENCE serial RESTART WITH 0; 
+
+alter sequence EMPID_SEQ
+maxvalue 1000
+CACHE 20;
+
+3.4. insert into CCVT_EMP145 values(EMPID_SEQ.NEXTVAL,'E0005','SHARMA','RAM','',2000000,'D01');
+
+
+3.5. drop sequence EMPID_SEQ ;
+
+

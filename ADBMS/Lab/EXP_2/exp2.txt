@@ -1,0 +1,12 @@
+Q.1. CREATE INDEX employee_idx ON CCVT_EMP145(lname,did);
+
+Q.2. select rowid from CCVT_EMP145;
+     CREATE UNIQUE INDEX employee_unique ON CCVT_EMP145(salary);
+
+Q.3. CREATE INDEX employee_reverse ON CCVT_EMP145(eid) REVERSE;
+
+Q.4. CREATE INDEX employee_composite ON CCVT_EMP145(eid,dob);
+
+Q.5. CREATE INDEX employee_function ON CCVT_EMP145(UPPER(fname));
+
+Q.6. DROP INDEX employee_function;

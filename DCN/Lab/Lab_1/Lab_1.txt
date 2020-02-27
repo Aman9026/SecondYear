@@ -1,0 +1,41 @@
+Set of interconnecting devices that are able to communicate with each other via communication.
+
+Mandatory Properties:
+1. Error Correction or Detection
+2. Flow Control
+3. Mux 0r DeMux
+
+Optional Properties:
+1. Encryption or Decryption
+2. Checkpoints
+
+TCP/IP Model(Pratical Model):
+1. Application LAyer
+2. Transport LAyer
+3. Network Layer
+4. Data Link Layer
+5. Physical Layer
+
+Repeater:
+1. 2-Port Device
+2. No Filtering
+3. Collision Domain
+4. Forwarding
+
+Hub:
+1. Multiport Device
+
+Bridge(MAC Address):
+1. 2 different LAN
+2. It works at Data Link Layer
+3. Forwarding
+4. Filtering
+5. Collision Domain
+
+Router(IP Address):
+1. Maintain Routing Table
+2. 
+
+
+
+
